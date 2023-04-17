@@ -11,3 +11,56 @@
   --barlowCondensed: "Barlow Condensed", sans-serif;
   --barlow: "Barlow", sans-serif;
 }
+body {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  font-family: var(--barlow);
+  color: var(--darkBlue);
+}
+nav {
+  width: 80%;
+  margin: 38px auto 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.menudesktop {
+  display: none;
+}
+.burger {
+  display: none;
+}
+.menumobile {
+  display: none;
+  position: absolute;
+  display: block;
+  width: 311px;
+  height: 230px;
+  top: 100px;
+  right: 10%;
+  background-color: white;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.158);
+  text-align: center;
+}
+.menumobile a {
+  font-family: var(--barlowCondensed);
+  margin: 24px auto 24px;
+  display: block;
+  text-transform: uppercase;
+  color: var(--darkBlue);
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.menumobile a:last-of-type {
+  color: var(--grey);
+}
+.linemenumobile {
+  margin: 0 auto;
+  width: 263px;
+  height: 1px;
+  background-color: var(--lightGrey);
+}
+.show {
+  display: block;
+}

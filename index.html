@@ -20,16 +20,24 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <div class="menumobile show">
+      <a href="#">Product</a><a href="#">Features</a><a href="#">Pricing</a>
+      <div class="linemenumobile"></div>
+      <a href="#">Login</a>
+    </div>
     <nav>
       <div class="img"><img src="./images/logo.svg" alt="logo" /></div>
-      <div class="menu">
+      <div class="menudesktop">
         <a href="#">Product</a><a href="#">Features</a><a href="#">Pricing</a
         ><a href="#">Login</a>
       </div>
-      <div class="hamburger">
-        <button>
-          <img src="./images/icon-hamburger.svg" alt="hamburger" />
-        </button>
+      <div>
+        <img
+          src="./images/icon-hamburger.svg"
+          alt="hamburger"
+          class="burger show"
+        />
+        <img src="./images/icon-close.svg" alt="close" class="burger" />
       </div>
     </nav>
     <main>
