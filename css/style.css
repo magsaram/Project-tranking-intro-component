@@ -33,7 +33,7 @@ nav {
 .menumobile {
   display: none;
   position: absolute;
-  display: block;
+  display: none;
   width: 311px;
   height: 230px;
   top: 100px;
@@ -60,6 +60,9 @@ nav {
   width: 263px;
   height: 1px;
   background-color: var(--lightGrey);
+}
+.close {
+  display: none;
 }
 .show {
   display: block;
