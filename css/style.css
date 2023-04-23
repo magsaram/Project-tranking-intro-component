@@ -152,3 +152,91 @@ footer a {
   color: black;
   text-decoration: none;
 }
+@media (min-width: 1024px) {
+  nav {
+    width: 70%;
+    margin: 64px auto 124px;
+  }
+  .menudesktop {
+    display: block;
+  }
+  .menudesktop a {
+    font-size: 15px;
+    font-family: var(--barlowCondensed);
+    margin-left: 41px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--darkBlue);
+    border-bottom: none;
+    transition: 0.3s;
+  }
+  .menudesktop a:hover {
+    border-bottom: 2px solid var(--darkBlue);
+  }
+  .menudesktop a:last-of-type {
+    color: var(--grey);
+  }
+  .menudesktop a:last-of-type:hover {
+    border-bottom: 2px solid var(--grey);
+  }
+  .menudesktop i {
+    font-size: 6px;
+    vertical-align: middle;
+    margin-left: 41px;
+    color: var(--grey);
+  }
+  nav div:last-of-type {
+    display: none;
+  }
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .grey {
+    top: -65px;
+  }
+  .illustrations img {
+    margin-bottom: 0;
+    width: 90%;
+  }
+  .main-text {
+    margin: 50px auto 0 15%;
+    width: 30%;
+  }
+  h1 {
+    margin-bottom: 32px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .main-text > p:nth-child(3) {
+    margin-bottom: 64px;
+    width: 50%;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .schedule {
+    width: 400px;
+    margin-bottom: 0;
+  }
+  .schedule a {
+    padding: 15px 30px;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  .schedule a:hover {
+    background-color: #ff8686;
+  }
+  .schedule p {
+    font-size: 18px;
+  }
+  footer {
+    font-size: 10px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  footer a {
+    color: black;
+    text-decoration: none;
+  }
+}
